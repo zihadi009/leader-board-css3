@@ -117,8 +117,33 @@ hr{
     color: #AEAEAE4;
  }
 
+ .courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 24px;
+ }
+
  .course-info{
     display: flex;
     align-items: center;
     justify-content: space-between;
  }
+
+ .course-duration{
+    width: 94.83px;
+    background-color: #FEE5DF;
+    color: #FF4A60;
+    border-radius: 14.6913px;
+    padding: 6px 4px;
+    text-align: center;
+ }
+
+ /*---------------
+  media queries 
+  ----------------*/
+  /*---------------
+   mobile device 
+   -----------------*/
+   @media  screen and (max-width:688px) {
+    
+   }
